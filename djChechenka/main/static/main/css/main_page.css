@@ -1,0 +1,153 @@
+@font-face {
+    font-family: marmelad;
+    src: url(../fonts/Marmelad-Regular.ttf);
+}
+@font-face {
+    font-family: AlegreyaBold;
+    src: url(../fonts/Alegreya-Bold.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: AlegreyaMedium;
+    src: url(../fonts/Alegreya-Medium.ttf);
+}
+@font-face {
+    font-family: AlegreyaRegular;
+    src: url(../fonts/Alegreya-Regular.ttf);
+}
+@font-face {
+    font-family: AlegreyaExtraBold;
+    src: url(../fonts/Alegreya-ExtraBold.ttf);
+}
+@font-face {
+    font-family: AlegreyaVar;
+    src: url(../fonts/Alegreya-VariableFont_wght.ttf);
+}
+*{
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    font-family: marmelad;
+    color: black!important;
+}
+
+
+/*//////////////////////////////////TEXT STYLES//////////////////////////////////////////*/
+.marmelad{
+    font-family: marmelad;
+}
+.alegreya-Bold{
+    font-family: AlegreyaBold;
+}
+.alegreya-ExtraBold{
+    font-family: AlegreyaExtraBold;
+}
+.alegreya-Regular{
+    font-family: AlegreyaRegular;
+}
+.alegreya-Medium{
+    font-family: AlegreyaMedium;
+}
+.alegreya-var{
+    font-family: AlegreyaVar;
+}
+.c-black{
+    color: black;
+}
+.c-gray{
+    color: #ADADAD!important;
+}
+.s-14{
+    font-size: 14pt!important;
+}
+.s-16{
+    font-size: 16pt!important;
+}
+.s-10{
+    font-size: 10pt!important;
+}
+h1{
+    font-size: 28pt!important;
+    font-weight: 800!important; 
+    text-transform: uppercase;
+    font-family: AlegreyaVar;
+}
+
+
+
+.bg-img-home{
+    background: url(../img/bg-img-home.svg);
+    background-size: 99%;
+    background-repeat: no-repeat;
+}
+.block2bg{
+    background: url(../img/bg-right-abstract.svg);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: 60%;
+}
+.row{
+    padding: 0!important;
+    margin: 0!important;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10{
+    padding: 0!important;
+    margin: 0!important;
+}
+header{
+    position: fixed;
+    width: 100vw;
+    z-index: 100;
+}
+main::before{
+    content: "";
+    width: 100%;
+    height: 2500px;
+    display: block;
+    position: absolute;
+    background: url(../img/chechen-face.svg), url(../img/bg-chb-full.svg);
+    background-size: 55%, 60%;
+    background-repeat: no-repeat;
+    background-position-x: 11%, 120%;
+    background-position-y: 170px, 1500px;
+    opacity: 0.06;
+    z-index: -5;
+}
+.btn-to-shop{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 100px;
+    background-color: #FFC550;
+    border-radius: 15px;
+    border: 1px solid black;
+    position: relative;
+    left: 50px;
+    transition: all 0.2s ease-in-out;
+    font-size: 25pt;
+}
+.btn-to-shop:hover{
+    left: 0;
+    background-color: #ffbf3e;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-in-shop{
+    width: 260px;
+    height: 70px;
+    background-color: #ffc55000;
+    border-radius: 8px;
+    border: 1px solid black;
+    transition: all 0.2s ease-in-out;
+    font-size: 15pt;
+}
+.btn-in-shop:hover{
+    background-color: #ffc550;
+    transition: all 0.2s ease-in-out;
+}
+
+.clothes-home::-webkit-scrollbar {
+    width: 0;
+  }
