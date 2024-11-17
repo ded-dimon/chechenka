@@ -73,7 +73,11 @@ h1{
 }
 
 
-
+.footer-desktop{
+    background: url(../img/bg-footer.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 .bg-img-home{
     background: url(../img/bg-img-home.svg);
     background-size: 99%;
